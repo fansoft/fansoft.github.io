@@ -29,22 +29,22 @@ var info = "";
 var end = false;
 var exit = false;
 while(!end && !exit){
-   diagonale = prompt("diagonale in cm (-1 für zoll, 0 für ende)",127);
+   diagonale = prompt("diagonale in cm (-1 fÃ¼r zoll, 0 fÃ¼r ende)",127);
    if (diagonale == null || diagonale == 0){end = true}
    if (diagonale != 0){exit = true}
 }
 exit = false;
 if (!end && diagonale == -1){
-   diagonale = prompt("diagonale in zoll (0 für ende)",50);
+   diagonale = prompt("diagonale in zoll (0 fÃ¼r ende)",50);
    if (diagonale == null || diagonale == 0){end= true}
    diagonale = diagonale * ZOLL;
 }
 while(!end && vx == 0){
-   vx = prompt("verhältnis x",16);
+   vx = prompt("verhÃ¤ltnis x",16);
    if (vx == null){end= true}
 }
 while(!end && vy == 0){
-   vy = prompt("verhältnis y",9);
+   vy = prompt("verhÃ¤ltnis y",9);
    if (vy == null){end= true}
 }
 if (!end){
@@ -52,19 +52,19 @@ if (!end){
    breite  = Math.sqrt((Math.pow(diagonale,2)) / ((Math.pow(vy,2) + Math.pow(vx,2)) / Math.pow(vx,2)));
    flaeche = hoehe * breite;
    info = "Diagonale " + diagonale + " cm<br>";
-   info = info + "Seitenverhältnis " + vx + ":" + vy + "<br>";
+   info = info + "SeitenverhÃ¤ltnis " + vx + ":" + vy + "<br>";
    info = info + "ergibt:<br>";
    info = info + "breite = " + breite + " cm<br>";
-   info = info + "höhe = " + hoehe + " cm<br>";
+   info = info + "hÃ¶he = " + hoehe + " cm<br>";
    info = info + "flaeche = " + flaeche + " cm^2<br>";
    if (vx == 16 && vy == 9){
       diagonale2 = Math.sqrt((Math.pow(hoehe,2) * ((Math.pow(4,2) + Math.pow(3,2)) / Math.pow(3,2))));
-      info = info + "Die höhe in 16:9 entspräche einem " + diagonale2 + " cm 4:3 Fernseher<br>";
+      info = info + "Die hÃ¶he in 16:9 entsprÃ¤che einem " + diagonale2 + " cm 4:3 Fernseher<br>";
    }
    else{
       if (vx == 4 && vy == 3){
          diagonale2 = Math.sqrt((Math.pow(hoehe,2) * ((Math.pow(16,2) + Math.pow(9,2)) / Math.pow(9,2))));
-         info = info + "Die höhe in 4:3 entspräche einem " + diagonale2 + " cm 16:9 Fernseher<br>";
+         info = info + "Die hÃ¶he in 4:3 entsprÃ¤che einem " + diagonale2 + " cm 16:9 Fernseher<br>";
       }
    }
 }

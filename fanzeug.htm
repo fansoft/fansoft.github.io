@@ -101,84 +101,84 @@ while(!exit && (jobName == "")){
    if (jobName == null){exit = true}
 }
 while(!exit && (jobDesc == "")){
-   jobDesc = prompt("Beschreibung der Tätigkeit:","Beschreibung der Tätigkeit");
+   jobDesc = prompt("Beschreibung der TÃ¤tigkeit:","Beschreibung der TÃ¤tigkeit");
    if (jobDesc == null){exit = true}
 }
 while(!exit && (note < 1 || note > 6)){
-   note=prompt("Gewünschte Note: 1=sehr gut - 6=ungenügend","");
+   note=prompt("GewÃ¼nschte Note: 1=sehr gut - 6=ungenÃ¼gend","");
    if (note == null){exit = true}
 }
 document.writeln("<p align=\"center\"><u>Arbeitszeugnis</u><br><br>")
 switch(note) {
  case "1":
     document.write(herrFrau + " <b>" + userName + "<\/b>, geboren am " + userBirth + " in " + birthPlace + ", trat am " + entryDate + " als " + jobName + " in unsere Firma ein.<br>")
-    document.write(Nomen(Nomen(erSie)) + " war vorwiegend mit der Tätigkeit \"" + jobDesc + "\" beauftragt.<br>")
-    document.write("Während " + seinerIhrer + " Tätigkeit in unserem Hause war " + herrFrau + " " + userName + " hoch motiviert und jederzeit bereit, auch zusätzlich anfallende Arbeiten zu übernehmen.<br>")
+    document.write(Nomen(Nomen(erSie)) + " war vorwiegend mit der TÃ¤tigkeit \"" + jobDesc + "\" beauftragt.<br>")
+    document.write("WÃ¤hrend " + seinerIhrer + " TÃ¤tigkeit in unserem Hause war " + herrFrau + " " + userName + " hoch motiviert und jederzeit bereit, auch zusÃ¤tzlich anfallende Arbeiten zu Ã¼bernehmen.<br>")
     document.write("Zudem identifizierte " + erSie + " sich stets mit " + seinerIhrer + " Aufgabe und dem Unternehmen.<br>")
-    document.write(Nomen(Nomen(erSie)) + " besaß ein hervorragendes, jederzeit verfügbares Fachwissen.<br>")
-    document.write("Des weiteren können wir sagen, dass wir " + ihnSie + " als " + einenEine + " stets äußerst zielstrebige" + _n + ", fleißige" + _n + " und gewissenhafte" + _n + " Mitarbeiter" + _in + " kennen.<br>")
-    document.write("Auch arbeitete " + erSie + " stets außerordentlich viel und schnell.<br>")
-    document.write("Daneben bewältigte " + herrFrau + " " + userName + " auch unter schwierigsten Arbeitsbedingungen alle Aufgaben.<br>")
-    document.write("Alle erforderlichen Maßnahmen führte " + erSie + " selbständig und entschlossen durch.<br>")
-    document.write("Besonders hervorheben wollen wir, dass " + erSie + " eine sehr schnelle Auffassungsgabe besaß und sich für alle neuen Vorhaben überaus flexibel und sehr aufgeschlossen zeigte.<br>")
-    document.write(herrFrau + " " + userName + " war äußerst vertrauenswürdig und stets bereit, volle Verantwortung zu übernehmen.<br>")
-    document.write("Bei allen Tätigkeiten konnte " + ihmIhr + " ein außerordentlich hohes Maß an Selbständigkeit eingeräumt werden.<br>")
-    document.write("Außerdem hielt " + erSie + " " + seineIhre + " Fachkenntnisse immer auf dem neuesten Stand.<br>")
-    document.write("Abschließend lässt sich sagen, dass " +seineIhre + " Leistungen sehr gut waren.<br>")
-    document.write("Wegen " + seineIhre + "s freundlichen Wesens und " + seineIhre + "r kollegialen Haltung wurde " + erSie + " bei Vorgesetzten und Mitarbeitern sehr geschätzt.<br>")
-    document.write("Auch " + seinIhr + " Verhalten gegenüber unseren Kunden war stets sehr vorbildlich.<br>")
+    document.write(Nomen(Nomen(erSie)) + " besaÃŸ ein hervorragendes, jederzeit verfÃ¼gbares Fachwissen.<br>")
+    document.write("Des weiteren kÃ¶nnen wir sagen, dass wir " + ihnSie + " als " + einenEine + " stets Ã¤uÃŸerst zielstrebige" + _n + ", fleiÃŸige" + _n + " und gewissenhafte" + _n + " Mitarbeiter" + _in + " kennen.<br>")
+    document.write("Auch arbeitete " + erSie + " stets auÃŸerordentlich viel und schnell.<br>")
+    document.write("Daneben bewÃ¤ltigte " + herrFrau + " " + userName + " auch unter schwierigsten Arbeitsbedingungen alle Aufgaben.<br>")
+    document.write("Alle erforderlichen MaÃŸnahmen fÃ¼hrte " + erSie + " selbstÃ¤ndig und entschlossen durch.<br>")
+    document.write("Besonders hervorheben wollen wir, dass " + erSie + " eine sehr schnelle Auffassungsgabe besaÃŸ und sich fÃ¼r alle neuen Vorhaben Ã¼beraus flexibel und sehr aufgeschlossen zeigte.<br>")
+    document.write(herrFrau + " " + userName + " war Ã¤uÃŸerst vertrauenswÃ¼rdig und stets bereit, volle Verantwortung zu Ã¼bernehmen.<br>")
+    document.write("Bei allen TÃ¤tigkeiten konnte " + ihmIhr + " ein auÃŸerordentlich hohes MaÃŸ an SelbstÃ¤ndigkeit eingerÃ¤umt werden.<br>")
+    document.write("AuÃŸerdem hielt " + erSie + " " + seineIhre + " Fachkenntnisse immer auf dem neuesten Stand.<br>")
+    document.write("AbschlieÃŸend lÃ¤sst sich sagen, dass " +seineIhre + " Leistungen sehr gut waren.<br>")
+    document.write("Wegen " + seineIhre + "s freundlichen Wesens und " + seineIhre + "r kollegialen Haltung wurde " + erSie + " bei Vorgesetzten und Mitarbeitern sehr geschÃ¤tzt.<br>")
+    document.write("Auch " + seinIhr + " Verhalten gegenÃ¼ber unseren Kunden war stets sehr vorbildlich.<br>")
     break;
  case "2":
     document.write(herrFrau + " <b>" + userName + "<\/b>, geboren am " + userBirth + " in " + birthPlace + ", trat am " + entryDate + " als " + jobName + " in unsere Firma ein.<br>")
-    document.write(Nomen(erSie) + " war vorwiegend mit der Tätigkeit \"" + jobDesc + "\" beauftragt.<br>")
+    document.write(Nomen(erSie) + " war vorwiegend mit der TÃ¤tigkeit \"" + jobDesc + "\" beauftragt.<br>")
     document.write(Nomen(erSie) + " setzte " + seineIhre + " umfassenden Fachkenntnisse erfolgreich ein.<br>")
-    document.write(Nomen(erSie) + " identifizierte sich mit "+ seineIhre + "r Aufgabe und zeigte überdurchschnittliche Einsatzbereitschaft.<br>")
+    document.write(Nomen(erSie) + " identifizierte sich mit "+ seineIhre + "r Aufgabe und zeigte Ã¼berdurchschnittliche Einsatzbereitschaft.<br>")
     document.write(Nomen(erSie) + " hat eine gute Auffassungsgabe.<br>")
-    document.write(herrFrau + " " + userName + " erledigte " + seineIhre + " Aufgabe stets mit großer Sorgfalt und Genauigkeit.<br>")
-    document.write(seineIhre + " Arbeitsqualität lag weit über den Anforderungen.<br>")
-    document.write(seinIhr + " Verhalten gegenüber Vorgesetzten und Kollegen war einwandfrei.<br>")
+    document.write(herrFrau + " " + userName + " erledigte " + seineIhre + " Aufgabe stets mit groÃŸer Sorgfalt und Genauigkeit.<br>")
+    document.write(seineIhre + " ArbeitsqualitÃ¤t lag weit Ã¼ber den Anforderungen.<br>")
+    document.write(seinIhr + " Verhalten gegenÃ¼ber Vorgesetzten und Kollegen war einwandfrei.<br>")
     break;
  case "3":
     document.write(herrFrau + " <b>" + userName + "<\/b>, geboren am " + userBirth + " in " + birthPlace + ", trat am " + entryDate + " als " + jobName + " in unsere Firma ein.<br>")
-    document.write(Nomen(erSie) + " war vorwiegend mit der Tätigkeit \"" + jobDesc + "\" beauftragt.<br>")
+    document.write(Nomen(erSie) + " war vorwiegend mit der TÃ¤tigkeit \"" + jobDesc + "\" beauftragt.<br>")
     document.write(Nomen(erSie) + " zeigte gute Fachkenntnisse.<br>")
     document.write(Nomen(erSie) + " zeigte Einsatzbereitschaft und Eigeninitiative.<br>")
     document.write(Nomen(erSie) + " zeigte sich bei der Einarbeitung in neue Aufgabenbereiche flexibel und aufgeschlossen.<br>")
     document.write(herrFrau + " " + userName + " erledigte " + seineIhre + " Aufgaben stets mit Sorgfalt und Genauigkeit.<br>")
     document.write(seineIhre + " Erledigung der Aufgaben entspach stets den Anforderungen.<br>")
-    document.write(seinIhr + " Verhalten gegenüber Vorgesetzten und Mitarbeitern war gut.<br>")
-    document.write("Wir danken " + herrFrau + " " + userName + " für " + seineIhre + " Mitarbeit und bedauern es, " + ihnSie + " als Mitarbeiter" + _in + " zu verlieren.<br>")
+    document.write(seinIhr + " Verhalten gegenÃ¼ber Vorgesetzten und Mitarbeitern war gut.<br>")
+    document.write("Wir danken " + herrFrau + " " + userName + " fÃ¼r " + seineIhre + " Mitarbeit und bedauern es, " + ihnSie + " als Mitarbeiter" + _in + " zu verlieren.<br>")
     break;
  case "4":
     document.write(herrFrau + " <b>" + userName + "<\/b>, geboren am " + userBirth + " in " + birthPlace + ", trat am " + entryDate + " als " + jobName + " in unsere Firma ein.<br>")
-    document.write(Nomen(erSie) + " war vorwiegend mit der Tätigkeit \"" + jobDesc + "\" beauftragt.<br>")
+    document.write(Nomen(erSie) + " war vorwiegend mit der TÃ¤tigkeit \"" + jobDesc + "\" beauftragt.<br>")
     document.write(Nomen(erSie) + " zeigte gute Fachkenntnisse.<br>")
     document.write(Nomen(erSie) + " zeigte Einsatzbereitschaft und Eigeninitiative.<br>")
     document.write(Nomen(erSie) + " zeigte sich bei der Einarbeitung in neue Aufgabenbereiche flexibel und aufgeschlossen.<br>")
     document.write(herrFrau + " " + userName + " erledigte " + seineIhre + " Aufgaben stets mit Sorgfalt und Genauigkeit.<br>")
     document.write(seineIhre + " Erledigung der Aufgaben entspach stets den Anforderungen.<br>")
-    document.write(seinIhr + " Verhalten gegenüber Vorgesetzten und Mitarbeitern war gut.<br>")
-    document.write("Wir danken " + herrFrau + " " + userName + " für " + seineIhre + " Mitarbeit und bedauern es, " + ihnSie + " als Mitarbeiter" + _in + " zu verlieren.<br>")
+    document.write(seinIhr + " Verhalten gegenÃ¼ber Vorgesetzten und Mitarbeitern war gut.<br>")
+    document.write("Wir danken " + herrFrau + " " + userName + " fÃ¼r " + seineIhre + " Mitarbeit und bedauern es, " + ihnSie + " als Mitarbeiter" + _in + " zu verlieren.<br>")
     break;
  case "5":
     document.write(herrFrau + " <b>" + userName + "<\/b>, geboren am " + userBirth + " in " + birthPlace + ", trat am " + entryDate + " als " + jobName + " in unsere Firma ein.<br>")
-    document.write(Nomen(erSie) + " war vorwiegend mit der Tätigkeit \"" + jobDesc + "\" beauftragt.<br>")
+    document.write(Nomen(erSie) + " war vorwiegend mit der TÃ¤tigkeit \"" + jobDesc + "\" beauftragt.<br>")
     document.write(Nomen(erSie) + " zeigte Fachkenntnisse.<br>")
     document.write(Nomen(erSie) + " zeigte Einsatzbereitschaft.<br>")
     document.write(Nomen(erSie) + " zeigte sich bei der Einarbeitung in neue Aufgabenbereiche aufgeschlossen.<br>")
     document.write(herrFrau + " " + userName + " erledigte " + seineIhre + " Aufgaben.<br>")
     document.write(seineIhre + " Erledigung der Aufgaben entspach den Anforderungen.<br>")
-    document.write(seinIhr + " Verhalten gegenüber Vorgesetzten und Mitarbeitern war in Ordnung.<br>")
-    document.write("Wir danken " + herrFrau + " " + userName + " für " + seineIhre + " Mitarbeit.<br>")
+    document.write(seinIhr + " Verhalten gegenÃ¼ber Vorgesetzten und Mitarbeitern war in Ordnung.<br>")
+    document.write("Wir danken " + herrFrau + " " + userName + " fÃ¼r " + seineIhre + " Mitarbeit.<br>")
     break;
  case "6":
     document.write(herrFrau + " <b>" + userName + "<\/b>, geboren am " + userBirth + " in " + birthPlace + ", trat am " + entryDate + " als " + jobName + " in unsere Firma ein.<br>")
-    document.write(Nomen(erSie) + " war vorwiegend mit der Tätigkeit \"" + jobDesc + "\" beauftragt.<br>")
+    document.write(Nomen(erSie) + " war vorwiegend mit der TÃ¤tigkeit \"" + jobDesc + "\" beauftragt.<br>")
     document.write(Nomen(erSie) + " zeigte Interesse und Bereitschaft.<br>")
     document.write(herrFrau + " " + userName + " erledigte " + seineIhre + " Aufgaben.<br>")
     document.write(seineIhre + " Erledigung der Aufgaben entspach meistens den Anforderungen.<br>")
-    document.write(seinIhr + " Verhalten gegenüber Vorgesetzten und Mitarbeitern war im allgemeinen in Ordnung.<br>")
-    document.write("Wir wünschen " + herrFrau + " " + userName + " alles gute.<br>")
+    document.write(seinIhr + " Verhalten gegenÃ¼ber Vorgesetzten und Mitarbeitern war im allgemeinen in Ordnung.<br>")
+    document.write("Wir wÃ¼nschen " + herrFrau + " " + userName + " alles gute.<br>")
     break;
 }
 if (exit){
