@@ -49164,8 +49164,7 @@ He wanted her alive.
 
 1424
 01:31:11,230 --> 01:31:14,970
-A Jedi's weapon
-deserves more respect.
+A Jedi's weapon deserves more respect.
 
 1425
 01:31:16,940 --> 01:31:19,370
@@ -49177,8 +49176,7 @@ What are you doing?
 
 1427
 01:31:22,180 --> 01:31:24,910
-<font color="#138ce9">REY:</font> I saw myself
-on the dark throne.
+I saw myself on the dark throne.
 
 1428
 01:31:24,910 --> 01:31:26,510
@@ -49195,8 +49193,7 @@ I was wrong.
 
 1431
 01:31:32,990 --> 01:31:35,420
-It was fear
-that kept me here.
+It was fear that kept me here.
 
 1432
 01:31:36,930 --> 01:31:38,830
@@ -49224,8 +49221,7 @@ She still trained me.
 
 1438
 01:32:05,820 --> 01:32:08,690
-Because she saw
-your spirit.
+Because she saw your spirit.
 
 1439
 01:32:08,690 --> 01:32:10,330
