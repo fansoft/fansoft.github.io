@@ -22953,16 +22953,13 @@ NEEDA: They're moving to attack position. Shields up!
 
 NEEDA: Track them,. They may come around for another pass.
 
-TRACKING OFFICER: Captain Needa, the ship no longer appears on our
-scopes.
+TRACKING OFFICER: Captain Needa, the ship no longer appears on our scopes.
 
-NEEDA: They can't have disappeared. No ship that small has a cloaking
-device.
+NEEDA: They can't have disappeared. No ship that small has a cloaking device.
 
 TRACKING OFFICER: Well, there's no trace of them, sir.
 
-COMMUNICATIONS OFFICER: Captain, Lord Vader demands an update on the
-pursuit.
+COMMUNICATIONS OFFICER: Captain, Lord Vader demands an update on the pursuit.
 
 NEEDA: (drawing a breath) Get a shuttle ready. I shall assume full
 responsibility for losing them, and apologize to Lord Vader.
@@ -44829,8 +44826,7 @@ MAN: Hurry.
 
 389
 00:25:35,000 --> 00:25:37,430
-Leia sent me
-a transmission.
+Leia sent me a transmission.
 
 390
 00:25:37,430 --> 00:25:40,100
@@ -44843,8 +44839,7 @@ How'd you find us?
 
 392
 00:25:43,870 --> 00:25:45,640
-Wookiees
-stand out in a crowd.
+Wookiees stand out in a crowd.
 
 393
 00:25:45,640 --> 00:25:47,970
@@ -44857,8 +44852,7 @@ stand out in a crowd.
 
 395
 00:25:49,510 --> 00:25:51,950
-It's good to see you too,
-old buddy.
+It's good to see you too, old buddy.
 
 396
 00:25:51,950 --> 00:25:54,050
@@ -44867,8 +44861,7 @@ General Lando Calrissian.
 
 397
 00:25:54,050 --> 00:25:55,120
-We know who he is,
-Threepio.
+We know who he is, Threepio.
 
 398
 00:25:55,120 --> 00:25:57,320
@@ -44876,8 +44869,7 @@ It is an honor, General.
 
 399
 00:25:57,320 --> 00:26:00,020
-General Calrissian,
-we're looking for Exegol.
+General Calrissian, we're looking for Exegol.
 
 400
 00:26:02,560 --> 00:26:04,130
@@ -44894,18 +44886,15 @@ Only two were made.
 
 403
 00:26:10,270 --> 00:26:12,170
-Luke Skywalker came here
-to find one.
+Luke Skywalker came here to find one.
 
 404
 00:26:12,170 --> 00:26:15,070
-(CHUCKLES) I know.
-I was with him.
+(CHUCKLES) I know. I was with him.
 
 405
 00:26:15,070 --> 00:26:17,410
-Luke and I were tailing
-an old Jedi hunter.
+Luke and I were tailing an old Jedi hunter.
 
 406
 00:26:18,610 --> 00:26:20,210
@@ -44917,18 +44906,15 @@ He was carrying a clue
 
 408
 00:26:21,440 --> 00:26:24,040
-that could lead
-to a wayfinder.
+that could lead to a wayfinder.
 
 409
 00:26:24,050 --> 00:26:27,010
-We followed his ship halfway
-across the galaxy here.
+We followed his ship halfway across the galaxy here.
 
 410
 00:26:27,020 --> 00:26:29,250
-When we got to his ship,
-it was abandoned...
+When we got to his ship, it was abandoned...
 
 411
 00:26:29,250 --> 00:26:32,250
@@ -44940,8 +44926,7 @@ Is Ochi's ship still here?
 
 413
 00:26:33,520 --> 00:26:35,420
-It's out in the desert,
-where he left it.
+It's out in the desert, where he left it.
 
 414
 00:26:35,420 --> 00:26:37,720
@@ -44954,13 +44939,11 @@ Search it again.
 
 416
 00:26:46,270 --> 00:26:48,670
-I got a bad feeling
-about this.
+I got a bad feeling about this.
 
 417
 00:26:48,670 --> 00:26:51,200
-Ochi's ship
-is out past Lurch Canyon.
+Ochi's ship is out past Lurch Canyon.
 
 418
 00:26:51,210 --> 00:26:53,470
